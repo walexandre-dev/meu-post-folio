@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- EDITÁVEL: Altere o título e a descrição -->
+    <title>Alesandre | Portfólio</title>
+    <link rel="stylesheet" href="/Src/style.css">
+    <link rel="stylesheet" href="/Src/javascript.js">
+    <meta name="description" content="Portfólio pessoal de [Seu Nome], mostrando projetos e habilidades em [Sua Área].">
+    <!-- Estilos (CSS) -->
+    <!-- Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Ícones (usando Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- ==================== CABEÇALHO ==================== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <!-- EDITÁVEL: Altere para seu nome ou logo -->
+            <a href="#" class="nav__logo">Alexandre S. Rodrigues</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link active-link">Início</a></li>
+                    <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#projetos" class="nav__link">Projetos</a></li>
+                    <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+                </ul>
+            </div>
+
+            <!-- Botão "hambúrguer" para menu mobile -->
+            <div class="nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ==================== SEÇÃO INÍCIO ==================== -->
+        <section class="section" id="inicio">
+            <div class="inicio__container container grid">
+                <div class="inicio__content">
+                    <!-- EDITÁVEL: Altere com suas informações -->
+                    <h1>Olá, eu sou <span>Alexandre Sampaio</span></h1>
+                    <h3 class="inicio__profissao">Análista de Desenvolvimento de Sistemas</h3>
+                    <p class="inicio__description">Bem-vindo(a) ao meu portfólio. Aqui você encontrará alguns dos meus projetos e um pouco sobre minhas habilidades.</p>
+                    <a href="#contato" class="button">Entre em Contato</a>
+                </div>
+                
+                <div class="inicio__img-container">
+                    <!-- EDITÁVEL: Troque a URL pela foto do seu rosto -->
+                    <img src="/Src/perfil.jpg" alt="Foto de [Seu Nome]" class="inicio__img">
+                </div>
+                
+                 <div class="inicio__social">
+                    <!-- EDITÁVEL: Adicione os links para suas redes sociais -->
+                    <a href="https://linkedin.com/in/seu-usuario" target="_blank" class="inicio__social-link" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/seu-usuario" target="_blank" class="inicio__social-link" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/seu-usuario" target="_blank" class="inicio__social-link" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SEÇÃO SOBRE ==================== -->
+        <section class="section" id="sobre">
+            <div class="sobre__container container">
+                <h2 class="section__title">Sobre Mim</h2>
+                <!-- EDITÁVEL: Escreva um parágrafo sobre você. Fale sobre sua paixão, experiências e objetivos. -->
+                <p class="sobre__text">
+                    Sou um profissional apaixonado por tecnologia e por resolver problemas de forma criativa. Tenho experiência com diversas tecnologias modernas de desenvolvimento e busco sempre aprender coisas novas para aprimorar minhas habilidades e entregar os melhores resultados. Meu objetivo é criar soluções que sejam não apenas funcionais, mas também intuitivas e agradáveis para o usuário final.
+                </p>
+                <div class="sobre__habilidades">
+                    <h3 class="habilidades__title">Minhas Habilidades</h3>
+                    <div class="habilidades__list">
+                        <!-- EDITÁVEL: Adicione ou remova habilidades conforme necessário -->
+                        <span class="habilidade">HTML5</span>
+                        <span class="habilidade">CSS3 & SASS</span>
+                        <span class="habilidade">JavaScript (ES6+)</span>
+                        <span class="habilidade">React.js</span>
+                        <span class="habilidade">Node.js</span>
+                        <span class="habilidade">SQL & NoSQL</span>
+                        <span class="habilidade">Git & GitHub</span>
+                        <span class="habilidade">Figma</span>
+                        <span class="habilidade">Photoshop</span>
+                        <span class="habilidade">UI/UX Design</span>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- ==================== SEÇÃO PROJETOS ==================== -->
+        <section class="section" id="projetos">
+            <h2 class="section__title">Meus Projetos</h2>
+            <div class="projetos__container container grid">
+
+                <!-- EDITÁVEL: PROJETO 1 -->
+                <article class="projeto__card">
+                    <!-- Coloque uma imagem do seu projeto (tamanho recomendado: 800x600px) -->
+                    <img src="https://placehold.co/800x600/f0f0f0/333?text=Projeto+1" alt="Imagem do Projeto 1" class="projeto__img">
+                    <div class="projeto__data">
+                        <h3 class="projeto__title">Nome do Projeto 1</h3>
+                        <p class="projeto__description">
+                            Breve descrição do projeto, os desafios que você enfrentou e as tecnologias que utilizou para construí-lo. Mantenha o texto conciso.
+                        </p>
+                        <!-- Coloque o link para o projeto ao vivo ou para o repositório -->
+                        <a href="#" target="_blank" class="projeto__link">Ver Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- EDITÁVEL: PROJETO 2 -->
+                <article class="projeto__card">
+                    <img src="https://placehold.co/800x600/e0e0e0/333?text=Projeto+2" alt="Imagem do Projeto 2" class="projeto__img">
+                    <div class="projeto__data">
+                        <h3 class="projeto__title">Nome do Projeto 2</h3>
+                        <p class="projeto__description">
+                            Breve descrição do projeto, os desafios que você enfrentou e as tecnologias que utilizou para construí-lo. Mantenha o texto conciso.
+                        </p>
+                        <a href="#" target="_blank" class="projeto__link">Ver Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- EDITÁVEL: PROJETO 3 (pode copiar e colar para adicionar mais) -->
+                <article class="projeto__card">
+                    <img src="https://placehold.co/800x600/d0d0d0/333?text=Projeto+3" alt="Imagem do Projeto 3" class="projeto__img">
+                    <div class="projeto__data">
+                        <h3 class="projeto__title">Nome do Projeto 3</h3>
+                        <p class="projeto__description">
+                            Breve descrição do projeto, os desafios que você enfrentou e as tecnologias que utilizou para construí-lo. Mantenha o texto conciso.
+                        </p>
+                        <a href="#" target="_blank" class="projeto__link">Ver Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ==================== SEÇÃO CONTATO ==================== -->
+        <section class="section" id="contato">
+            <div class="contato__container container">
+                <h2 class="section__title">Vamos Conversar?</h2>
+                <p class="contato__description">
+                    Estou sempre aberto a novas oportunidades, colaborações ou apenas um bom bate-papo. Sinta-se à vontade para entrar em contato.
+                </p>
+                <!-- EDITÁVEL: Coloque seu endereço de email -->
+                <a href="mailto:seu.email@exemplo.com" class="button contato__button">
+                    <i class="fa-regular fa-envelope"></i> Enviar Email
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== RODAPÉ ==================== -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <!-- EDITÁVEL: Altere para seu nome ou logo -->
+            <a href="#inicio" class="footer__logo">Alexandre Sampaio Rodrigues</a>
+            
+             <div class="footer__social">
+                <!-- EDITÁVEL: Adicione os links para suas redes sociais -->
+                <a href="https://linkedin.com/in/seu-usuario" target="_blank" class="footer__social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/seu-usuario" target="_blank" class="footer__social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://instagram.com/seu-usuario" target="_blank" class="footer__social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            
+            <!-- EDITÁVEL: Altere o ano e seu nome -->
+            <span class="footer__copy">&#169; 2025. Criado por Alexandre S. Rodrigues. Todos os direitos reservados.</span>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+         <script>
+        /* ==================== MOSTRAR/ESCONDER MENU MOBILE ==================== */
+        const navMenu = document.getElementById('nav-menu');
+        const navToggle = document.getElementById('nav-toggle');
+        const navLinks = document.querySelectorAll('.nav__link');
+
+        // Função para mostrar/esconder o menu
+        const toggleMenu = () => {
+            const isMenuVisible = navMenu.classList.toggle('show-menu');
+            navToggle.classList.toggle('active');
+            navToggle.setAttribute('aria-expanded', isMenuVisible);
+        };
+        
+        // Adiciona evento ao botão "hambúrguer"
+        if (navToggle) {
+            navToggle.addEventListener('click', toggleMenu);
+        }
+
+        // Esconde o menu quando um link é clicado (útil no mobile)
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (navMenu.classList.contains('show-menu')) {
+                    toggleMenu();
+                }
+            });
+        });
+        
+        /* ==================== ADICIONAR SOMBRA NO CABEÇALHO AO ROLAR ==================== */
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (this.scrollY >= 50) {
+                header.classList.add('header-scroll');
+            } else {
+                header.classList.remove('header-scroll');
+            }
+        });
+        
+        /* ==================== MARCAR LINK ATIVO NA NAVEGAÇÃO ==================== */
+        const sections = document.querySelectorAll('section[id]');
+
+        window.addEventListener('scroll', () => {
+          const scrollY = window.pageYOffset;
+
+          sections.forEach(current => {
+            const sectionHeight = current.offsetHeight;
+            const sectionTop = current.offsetTop - 58; // 58px é a altura do header
+            const sectionId = current.getAttribute('id');
+            const navLink = document.querySelector('.nav__menu a[href*=' + sectionId + ']');
+
+            if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+              navLink.classList.add('active-link');
+            } else {
+              navLink.classList.remove('active-link');
+            }
+          });
+        });
+    </script>
+</body>
+</html>
