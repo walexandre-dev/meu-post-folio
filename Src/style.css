@@ -251,7 +251,7 @@
 
     .inicio__description {
         max-width: 600px;
-        margin: 0 auto 2.5rem;
+        margin: revert-layer;
     }
 
     .inicio__social {
